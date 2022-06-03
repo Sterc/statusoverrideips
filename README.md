@@ -1,9 +1,11 @@
 # StatusOverrideIPs:
 ==============================================
 
-Override site_status per IP.
+![StatusOverrideIPs version](https://img.shields.io/badge/version-3.0.0-brightgreen.svg)
+![MODX Extra by Sterc](https://img.shields.io/badge/extra%20by-sterc-ff69b4.svg)
+![MODX version requirements](https://img.shields.io/badge/modx%20version%20requirement-3.0%2B-blue.svg)
 
-Version: 1.0.0 pl (2013-07-16)
+Override site_status per IP.
 
 ### Description
 -----------
