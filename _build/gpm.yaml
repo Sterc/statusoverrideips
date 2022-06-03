@@ -1,0 +1,21 @@
+name: StatusOverrideIps
+version: 3.0.0-pl
+lowCaseName: statusoverrideips
+description: Override site_status per IP.
+namespace: Sterc\StatusOverrideIps
+author: Sterc
+
+menus:
+    -
+        text: statusoverrideips
+        action: home
+        parent: components
+
+plugins:
+  - name: StatusOverrideIps
+    description: ''
+    file: 'statusoverrideips.plugin.php'
+    events: ['OnHandleRequest']
+
+database:
+  tables: ['\Sterc\StatusOverrideIps\Model\SoIP']

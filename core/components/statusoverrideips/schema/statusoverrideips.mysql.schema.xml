@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model package="Sterc\StatusOverrideIps\Model\" baseClass="xPDO\Om\xPDOSimpleObject" platform="mysql" defaultEngine="InnoDB" version="3.0">
+    <object class="SoIP" table="statusoverrideips_ips">
+        <field key="name" dbtype="varchar" precision="255" phptype="string" null="null" default=""/>
+        <field key="ip" dbtype="varchar" precision="46" phptype="string" null="false" default=""/>
+    </object>
+</model>
