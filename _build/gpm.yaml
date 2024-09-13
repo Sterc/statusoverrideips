@@ -1,5 +1,5 @@
 name: StatusOverrideIps
-version: 3.0.0-pl
+version: 3.0.1
 lowCaseName: statusoverrideips
 description: Override site_status per IP.
 namespace: Sterc\StatusOverrideIps
