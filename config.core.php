@@ -1,3 +1,3 @@
 <?php
-define('MODX_CORE_PATH', '/Users/sanderdrenth/Development/projects/vhosts/modx3/core/');
+define('MODX_CORE_PATH', dirname(dirname(dirname(__FILE__))) . '/core/');
 define('MODX_CONFIG_KEY', 'config');

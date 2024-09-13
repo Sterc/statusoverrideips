@@ -25,6 +25,7 @@ class StatusOverrideIps
             'namespace'       => $this->namespace,
             'core_path'       => $corePath,
             'model_path'      => $corePath . 'model/',
+            'processors_path' => $corePath . 'processors/',
             'chunks_path'     => $corePath . 'elements/chunks/',
             'snippets_path'   => $corePath . 'elements/snippets/',
             'templates_path'  => $corePath . 'templates/',
